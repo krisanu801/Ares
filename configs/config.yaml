@@ -1,0 +1,28 @@
+# Configuration file for ARES settings
+
+# Gemini API Key
+gemini_api_key: "AIzaSyB0pNwNtIKilIvqKmSvbN0Za291PzHHyvQ"  # Replace with your actual Gemini API key
+
+# Gemini Model Name
+model_name: "gemini-2.0-flash" # Or "gemini-2.0-pro" or other available models
+
+# ArXiv settings
+arxiv:
+  max_results: 10
+
+# PubMed settings
+pubmed:
+  max_results: 10
+
+# Logging settings (can be overridden by logging.yaml)
+logging:
+  level: INFO # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+# Experimentation settings
+experimentation:
+  simulation_time: 100 # Example parameter for simulations
+  default_temperature: 25 # Example parameter for experiments
+
+# Other settings
+other:
+  example_setting: "example_value"

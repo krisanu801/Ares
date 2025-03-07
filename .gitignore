@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+sdist/
+*.egg-info/
+
+# PyInstaller
+#  Usually these files are written into a _MEIPASS folder in runtime.
+# _MEIPASS*
+#   Note: the above is normally enough, but if you want to be more specific:
+# _MEI*, _MEI*/*
+
+# Environments
+.env
+venv/
+ENV/
+env.bak/
+env/
+.venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+
+# Temp files
+*.tmp
+*.swp
+*~
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Data
+data/*
+!data/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

@@ -1,0 +1,7 @@
+google-generativeai
+arxiv
+pubmed_parser
+PyYAML
+requests
+pytest
+python-dotenv
