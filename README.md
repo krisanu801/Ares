@@ -114,4 +114,4 @@ Contributions are welcome! Please submit pull requests with detailed description
 
 ## License
 
-[MIT](LICENSE) (Replace with your desired license)
+[MIT](LICENSE) 
