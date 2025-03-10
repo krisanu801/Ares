@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Ares",  # Replace with your own username
+    name="Ares",  
     version="0.0.1",
-    author="Krisanu801",  # Replace with your name
-    author_email="sarkarkrisanu03@gmail.com", # Replace with your email
+    author="Krisanu801", 
+    author_email="sarkarkrisanu03@gmail.com", 
     description="Autonomous Research & Experimentation System",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/krisanu801/Ares", # Replace with your repo URL
+    url="https://github.com/krisanu801/Ares",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -30,12 +30,12 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-            'ares=src.main:main',  # If you want to create a command-line tool
+            'ares=src.main:main', 
         ],
     },
     package_data={
-        'configs': ['*.yaml'], # Include YAML config files in the package
-        'data': ['*.xml'], # Include example data files
+        'configs': ['*.yaml'],
+        'data': ['*.xml'], 
     },
     include_package_data=True, # Important to include non-python files
 )
