@@ -6,12 +6,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="Ares",  # Replace with your own username
     version="0.0.1",
-    author="Example Author",  # Replace with your name
-    author_email="author@example.com", # Replace with your email
+    author="Krisanu801",  # Replace with your name
+    author_email="sarkarkrisanu03@gmail.com", # Replace with your email
     description="Autonomous Research & Experimentation System",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your_username/Ares", # Replace with your repo URL
+    url="https://github.com/krisanu801/Ares", # Replace with your repo URL
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
